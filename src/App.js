@@ -3,11 +3,6 @@ import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
 import "./styles.css"
 
-import { useEffect } from "react";
-
-useEffect(() => {
-  dispatch({ type: ACTIONS.ADD_DIGIT, payload: { digit: "1" } });
-}, []);
 export const ACTIONS = {
   ADD_DIGIT: 'add-digit',
   CHOOSE_OPERATION: 'choose-operation',
