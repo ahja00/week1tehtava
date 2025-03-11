@@ -150,7 +150,6 @@ function App() {
     >
       AC
       </button>
-    <button>DEL</button>
     <button onClick={() => dispatch({type: ACTIONS.DELETE_DIGIT})}>
       DEL
       </button>
